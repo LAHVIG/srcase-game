@@ -4,4 +4,4 @@ stuffs
 
 yeah
 
-pages here: yeet
+pages here: https://lahvig.github.io/srcase-game/src/
