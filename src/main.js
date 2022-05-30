@@ -6,7 +6,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   player = new Player(width, height, 10, size, 5);
   frameRate(60);
-
+  angleMode(RADIANS)
   // requires a size, type and speed variables
   new Linear(size, 5);
   background(220);

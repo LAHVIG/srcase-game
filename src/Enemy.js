@@ -11,15 +11,16 @@ class Enemy
 
     this.y1 = random(0 + this.diameter/2, height - this.diameter/2);
     this.y2 = random(0 + this.diameter/2, height - this.diameter/2);
-
     
   }
 
   show()
   {
+    
     push();
     fill(123, 44, 191);
-    circle(this.x, this.y, this.diameter);
+    translate(this.x, this.y);
+    circle(0, 0, this.diameter);
     pop();
   }
 
